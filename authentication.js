@@ -9,7 +9,7 @@ module.exports = {
       password: '{{bundle.authData.password}}',
       username: '{{bundle.authData.username}}',
     },
-    url: 'https://6b6d-136-185-200-116.ngrok-free.app/',
+    url: 'https://9292-136-185-200-116.ngrok-free.app/',
   },
   fields: [
     { computed: false, key: 'username', required: true, label: 'username' },
@@ -32,7 +32,8 @@ module.exports = {
         accept: 'application/json',
       },
       method: 'POST',
-      url: 'https://6b6d-136-185-200-116.ngrok-free.app/sessiontoken',
+      url: 'https://9292-136-185-200-116.ngrok-free.app/sessiontoken',
     },
   },
+  connectionLabel: '{{bundle.authData.username}}',
 };
