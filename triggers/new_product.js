@@ -14,7 +14,7 @@ module.exports = {
         username: '{{bundle.authData.username}}',
         password: '{{bundle.authData.password}}',
       },
-      url: 'https://9292-136-185-200-116.ngrok-free.app/products',
+      url: 'https://0a25-136-185-200-116.ngrok-free.app/products',
     },
     outputFields: [
       { key: 'id', label: 'id', type: 'integer' },
